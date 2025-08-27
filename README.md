@@ -12,7 +12,7 @@ This project uses a fine-tuned ResNet50 model to detect bone fractures in X-ray 
 
 ## Results
 
-After fine-tuning, the model achieved **100% accuracy** on the untouched test set, demonstrating its effectiveness.
+The model was trained using data augmentation and early stopping to prevent overfitting. After a full training run, the final model achieved **98.75% accuracy** on the untouched test set, demonstrating its robustness and ability to generalize.
 
 ### Performance Curves
 ![Performance Curves](performance_curves.png)
